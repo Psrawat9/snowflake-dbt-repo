@@ -1,0 +1,22 @@
+sources:
+  - name: "ecomdatabase"
+    database: DB_ECOMM
+    schema: SC_ECOMM
+    tables:
+      - name: usr
+        identifier: USERS
+    
+
+models:
+  - name: "pravin3"
+    config:
+      materialized: "table"
+  - name: "users_v2"
+    config:
+      materialized: "view"
+  - name: "users_dbt"
+    config:
+      materialized: "view"
+  - name: "users_v3"
+    config:
+      materialized: "table"
